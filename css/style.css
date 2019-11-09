@@ -1,0 +1,9 @@
+body {
+    display: flex; /* tells computer to begin using flex box layout */
+    justify-content: center; /* this centers our object horizontally */
+    align-items: center; /* this centers our object vertically */
+    background: url('../img/wow.png') botom center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
