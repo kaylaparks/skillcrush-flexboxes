@@ -2,20 +2,25 @@ body {
     display: flex; /* tells computer to begin using flex box layout */
     justify-content: center; /* this centers our object horizontally */
     align-items: center; /* this centers our object vertically */
-    background: url('../img/wow.png') botom center no-repeat;
+    background-image: url('../img/wow.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+    color: salmon;
 }
 /* Tablet */
 @media screen and (min-width: 786px){
     h1 {
         font-size: 3em;
+        color: salmon;
     }
 }
 /* Desktop */
 @media screen and (min-width: 1200px){
     h1 {
         font-size: 4em;
+        color: salmon;
     }
 }
